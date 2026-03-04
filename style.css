@@ -1760,3 +1760,50 @@ display:none;
 }
 
 }
+/* ================= APPLICATIONS MOBILE FIX ================= */
+
+@media (max-width:768px){
+
+.applications-section{
+padding:60px 20px;
+}
+
+.applications-header{
+flex-direction:column;
+align-items:flex-start;
+gap:15px;
+}
+
+.applications-slider{
+display:flex;
+gap:15px;
+overflow-x:auto;
+scroll-behavior:smooth;
+}
+
+.applications-slider::-webkit-scrollbar{
+display:none;
+}
+
+.app-card{
+min-width:220px;
+flex-shrink:0;
+}
+
+.app-card img{
+height:240px;
+}
+
+.overlay{
+padding:15px;
+}
+
+.overlay h3{
+font-size:18px;
+}
+
+.overlay p{
+font-size:13px;
+}
+
+}
